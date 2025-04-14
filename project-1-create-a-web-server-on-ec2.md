@@ -13,6 +13,7 @@ In this project, you will launch an **Amazon EC2 instance** using **Amazon Linux
    - **Name:** `Custom-Apache-Web-Server`  
    - **AMI:** Amazon Linux 2023  
    ![alt text](Capture.PNG)
+
    - **Instance Type:** `t2.micro` (Free Tier eligible)  
    - **Key Pair:** Proceed without a key pair 
    ![alt text](Capture2.PNG)
@@ -22,10 +23,11 @@ In this project, you will launch an **Amazon EC2 instance** using **Amazon Linux
        - **Allow HTTP (80) from Anywhere (`0.0.0.0/0`, `::/0`)**  
        - **Allow SSH (22) from your IP**  
        ![alt text](Capture3.PNG)
+
    - **User Data:** Copy and paste the script below (see next section).  
 
 5. Click **Launch Instance**.  
-![alt text](Capture4.PNG)
+       ![alt text](Capture4.PNG)
 
 ### **Step 2: Configure User Data for Automatic Setup**  
 To automate the installation of Apache and deploy a custom webpage, add the following script to **User Data** during EC2 instance launch:  
