@@ -10,7 +10,7 @@ In this project, you will launch an **Amazon EC2 instance** using **Amazon Linux
 2. Navigate to **EC2 Dashboard**. 
 3. Click on **Launch Instance**.  
 4. Configure the following:  
-   - **Name:** `Custom-Apache-Web-Server`  
+   - **Name:** `project-1-Custom-Apache-WebServer`  
    - **AMI:** Amazon Linux 2023  
    ![alt text](Capture.PNG)
 
